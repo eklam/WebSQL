@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="WebSQLApp">
+    <head>
+        <meta charset="utf-8" />
+        <title>SQL Editor</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @{ 
+            Bundles.Reference("~/Content");
+
+            //Bundles.Reference(Links.Scripts.jquery_1_9_1_min_js);
+            //Bundles.Reference(Links.Scripts.jquery_form_min_js);
+            //Bundles.Reference(Links.Scripts.knockout_2_1_0_js);
+            //Bundles.Reference(Links.Scripts.knockout_mapping_latest_js);
+            //Bundles.Reference(Links.Scripts.perpetuum_knockout_js);
+            //Bundles.Reference(Links.Scripts.bootstrap_min_js);
+            //Bundles.Reference(Links.Scripts.jquery_ui_1_10_2_min_js);
+            //Bundles.Reference(Links.Scripts.jquery_jstree_js);
+            //Bundles.Reference(Links.Scripts.jquery_validate_min_js);
+            //Bundles.Reference(Links.Scripts.WebSQL_js);
+            //Bundles.Reference(Links.Scripts.jquery_jqGrid_min_js);
+            //Bundles.Reference(Links.Scripts.jquery_caret_js);
+            //Bundles.Reference(Links.Scripts.linq_min_js);
+            //Bundles.Reference(Links.Scripts.WebSQLautocomplete_js);
+            
+          
+            
+        }
+        @Bundles.RenderStylesheets()
+        
+        @Bundles.RenderScripts()
+
+        <script src="@GenRandom(Links.Scripts.jquery_1_9_1_min_js)" type="text/javascript" ></script>
+        <script src="@GenRandom(Links.Scripts.jquery_form_min_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.knockout_2_1_0_js)" type="text/javascript" ></script>
+        <script src="@GenRandom(Links.Scripts.knockout_mapping_latest_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.perpetuum_knockout_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.bootstrap_min_js)" type="text/javascript" ></script>
+        <script src="@GenRandom(Links.Scripts.jquery_ui_1_10_2_min_js)" type="text/javascript" ></script>
+        <script src="@GenRandom(Links.Scripts.jquery_jstree_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.jquery_validate_min_js)" type="text/javascript" ></script>
+        <script src="@GenRandom(Links.Scripts.WebSQL_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.jquery_jqGrid_src_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.jquery_caret_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.linq_min_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.WebSQLautocomplete_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.jquery_signalR_1_1_1_min_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.jquery_blockUI_min_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.angular_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.ng_grid_2_0_7_min_js)" type="text/javascript"></script>
+        <script src="@GenRandom(Links.Scripts.WebSQLApp_js)" type="text/javascript"></script>
+        <script src="~/signalr/hubs" type="text/javascript"></script>
+        @RenderSection("CustomHead", false);
+    </head>
+    <body>
+        <form id="mainForm">
+        @RenderBody()
+        </form>
+        <div id="statusBar" >
+            Ready.
+        </div>
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.jstree._themes = '/Content/themes/';
+        });
+    </script>
+</html>
+@functions
+{ 
+    public string GenRandom(string jsFile)
+    {
+        return jsFile + "?" + (new Random().Next(1000)).ToString();
+    }
+}

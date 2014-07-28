@@ -1,0 +1,10 @@
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.pdb
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Release\BusinessLayer.dll
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Release\BusinessLayer.pdb
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.dll
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Release\BusinessLayer.pdb

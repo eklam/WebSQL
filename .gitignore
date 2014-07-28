@@ -13,7 +13,10 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-
+*.dll
+*.exe
+*.pdb
+*.user
 # =========================
 # Operating System Files
 # =========================
@@ -34,3 +37,11 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union

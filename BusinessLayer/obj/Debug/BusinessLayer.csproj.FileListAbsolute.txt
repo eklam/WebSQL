@@ -1,0 +1,24 @@
+I:\Personal Programming Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.dll
+I:\Personal Programming Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.pdb
+I:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.dll
+I:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.pdb
+I:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Personal Programming Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Personal Programming Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Personal Programming Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\SaninXPS-3\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\SaninXPS-3\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\SaninXPS-3\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\SaninXPS-3\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Sanin\Dropbox\Simple Projects\WebSQL\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache

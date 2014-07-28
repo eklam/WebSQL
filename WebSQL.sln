@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSQL", "WebSQL\WebSQL.csproj", "{E05AC9BE-8D34-4968-BE1D-F07875E863C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{29D04EAD-1FF7-40C9-96B9-FA3B90047DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9E31682F-EA91-4452-8E7E-D5E55E7D61C5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJQGrid", "MyJQGrid\MyJQGrid.csproj", "{F0CC4879-B8F3-4A4D-BBBB-62AC516F309C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A2850A8-C04A-4627-9C59-CCD73F4AA7F4}"
+	ProjectSection(SolutionItems) = preProject
+		WE-settings.xml = WE-settings.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05AC9BE-8D34-4968-BE1D-F07875E863C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05AC9BE-8D34-4968-BE1D-F07875E863C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05AC9BE-8D34-4968-BE1D-F07875E863C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05AC9BE-8D34-4968-BE1D-F07875E863C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D04EAD-1FF7-40C9-96B9-FA3B90047DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D04EAD-1FF7-40C9-96B9-FA3B90047DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D04EAD-1FF7-40C9-96B9-FA3B90047DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D04EAD-1FF7-40C9-96B9-FA3B90047DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CC4879-B8F3-4A4D-BBBB-62AC516F309C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CC4879-B8F3-4A4D-BBBB-62AC516F309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CC4879-B8F3-4A4D-BBBB-62AC516F309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CC4879-B8F3-4A4D-BBBB-62AC516F309C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
